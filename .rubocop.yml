@@ -1,0 +1,9 @@
+
+Style/Encoding:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 99
+
+Layout/IndentationWidth:
+  Width: 2
