@@ -1,5 +1,6 @@
 require 'benchmark'
-def fib(x, arr)
+def fib(x)
+  arr = []
     if x < 2
         x
     else
@@ -24,11 +25,11 @@ def fibthree(x)
         first = second
         second = temp
     end
-    puts "end"
+    puts first
 end
 
 
 
 
 # puts Benchmark.measure {fib(30,[])}
-puts fibthree(200000)
+puts fibthree(10)

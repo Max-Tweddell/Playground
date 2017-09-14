@@ -8,4 +8,4 @@ def binary(x)
     end
     binary_number
 end
-puts binary(69)
+p binary(1231231231277272).join
