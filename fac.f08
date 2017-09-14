@@ -1,7 +1,7 @@
 
 recursive function fact(i) result(j)
     integer, intent(in) :: i
-    integer(kind=32) :: j
+    integer(kind=16) :: j
     if (i == 1) then
         j = 1
     else
@@ -11,7 +11,7 @@ end function fact
 
 PROGRAM Factorial
     IMPLICIT NONE
-    INTEGER(kind=32) :: fact
-    print *, fact(45)
+    INTEGER(kind=16) :: fact
+    print *, fact(35)
 
 END PROGRAM Factorial
