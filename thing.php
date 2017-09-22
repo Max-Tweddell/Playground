@@ -3,7 +3,7 @@
 
 echo "hello world \n";
 
-echo 4 ** 4 ** 4 ** 4;
+echo 4 ** 4 ** 4 ;
 
 
 echo "this is pi \n";
